@@ -6,8 +6,14 @@ public class ifmoon_01 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int year = sc.nextInt();
-		System.out.println(year-543);
+		int A = sc.nextInt();
+		int B = sc.nextInt();
+		int C = sc.nextInt();
+		
+		System.out.println((A+B)%C);
+		System.out.println(((A%C)+(B%C))%C);
+		System.out.println((A*B)%C);
+		System.out.println(((A%C)*(B%C))%C);
 	}
 }
 //		int input;
